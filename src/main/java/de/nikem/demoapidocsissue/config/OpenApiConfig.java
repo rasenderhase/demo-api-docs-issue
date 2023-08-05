@@ -45,7 +45,7 @@ public class OpenApiConfig {
     public OpenAPI customOpenAPI() {
         final String apiTitle = "Demo REST API";
         return new OpenAPI()
-                .addServersItem(new Server().url("/wwscampaigns"))
+                .addServersItem(new Server().url("/"))
                 .addSecurityItem(new SecurityRequirement().addList("JWT"))
                 .components(
                         new Components()
