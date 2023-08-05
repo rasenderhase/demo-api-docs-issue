@@ -1,4 +1,4 @@
-package de.nikem.demoapidocsissue;
+package de.nikem.demoapidocsissue.dto;
 
 public class HelloWorldDto {
     private String greeting;
